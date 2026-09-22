@@ -1,0 +1,17 @@
+{
+  "name": "ezostylia-tarot-bot",
+  "version": "1.0.0",
+  "description": "Daily tarot card Twitter bot for Ezostylia — posts one card per day in Polish",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.17.0",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
